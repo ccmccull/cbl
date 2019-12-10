@@ -130,5 +130,5 @@ SummarizeLastGradeError <- function(res) {
 }
 
 x <- SummarizeLastGradeError(res.even)
-print(x)
+print(round(x, digits = 3))
 
