@@ -158,8 +158,8 @@ TestAssignmentArray()
 PrGradeASim <- function(num.sims, num.outcomes.grid, a.grid, b.grid, num.assignments.grid = NA, 
                         per.assignment.sd.grid = NA, assignment.scoring.fun = mean, 
                         return.first.raw.data = FALSE, ...) {
-
-
+  # Perform a set of grading simulations.
+  #
   # Args:  
   #   num.sims: Number of simulations.
   #   num.outcomes.grid: the number of outcomes in a class.
