@@ -130,9 +130,5 @@ SummarizeLastGradeError <- function(res) {
 }
 
 x <- SummarizeLastGradeError(res.even)
-
-class(summary(abs(x$prob.A.CBL.4 - x$prob.A.CBL.perfect)))
-summary(abs(x$prob.A.CBL.8 - x$prob.A.CBL.perfect))
-summary(abs(x$prob.A.Avg.4 - x$prob.A.Avg.perfect))
-summary(abs(x$prob.A.Avg.8 - x$prob.A.Avg.perfect))
+print(x)
 
