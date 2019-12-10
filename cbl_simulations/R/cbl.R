@@ -46,6 +46,7 @@ res.even <- PrGradeASim(num.sims = kNumSims,
 save.image("res.RData")
 
 cat("Plotting\n")
+library(ggplot2)
 X11()
 PlotCBLSimResults <- function(res) {
   t <- ggplot() +
